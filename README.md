@@ -1,2 +1,32 @@
 # SCoSPARC
-This repository contains code for the paper "Self-supervised co-salient object detection via feature correspondence at multiple scales"
+This repository contains codes and results for the paper "Self-supervised co-salient object detection via feature correspondence at multiple scales".
+
+## Abstract
+
+Our paper introduces a novel two-stage self-supervised approach for detecting co-occurring salient objects (CoSOD) in image groups without requiring segmentation annotations. Unlike existing unsupervised methods that rely solely on patch-level information (e.g. clustering patch descriptors) or on computation heavy off-the-shelf components for CoSOD, our lightweight model leverages feature correspondences at both patch and region levels, significantly improving prediction performance. In the first stage, we train a self-supervised network that detects co-salient regions by computing local patch-level feature correspondences across images. We obtain the segmentation predictions using confidence-based adaptive thresholding. In the next stage, we refine these intermediate segmentations by eliminating the detected regions (within each image) whose averaged feature representations are dissimilar to the foreground feature representation averaged across all the cross-attention maps (from the previous stage). Extensive experiments on three CoSOD benchmark datasets show that our self-supervised model outperforms the corresponding state-of-the-art models by a huge margin (e.g. on the CoCA dataset, our model has a 13.7% F-measure gain over the SOTA unsupervised CoSOD model). Notably, our self-supervised model also outperforms several recent fully supervised CoSOD models on the three test datasets (e.g., on the CoCA dataset, our model has a 4.6% F-measure gain over a recent supervised CoSOD model). 
+
+## Framework Overview
+
+![arch](README.assets/arch.svg)
+
+## Result
+
++ Comparison with the previous state-of-the-art methods with different training sets:
+
+![image-20220601123106208](README.assets/image-20220426224731550.png)
+
+## Download
+
+​	Find **predicted saliency maps** and all other stuff on my [google-drive folder for this work](https://drive.google.com/drive/folders/1SIr_wKT3MkZLtZ0jacOOZ_Y5xnl9-OPw?usp=sharing):
+
+### Citation
+
+```
+@article{zheng2022gconet+,
+  author={Chakraborty, Souradeep and Dimitris Samaras},
+  journal={ArxiV}, 
+  title={Self-supervised co-salient object detection via feature correspondence at multiple scales}, 
+  year={2024}
+}
+
+

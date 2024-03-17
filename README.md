@@ -19,7 +19,7 @@ Our paper introduces a novel two-stage self-supervised approach for detecting co
 
 ​	Find **predicted saliency maps** and all other stuff on my [google-drive folder for this work](https://drive.google.com/drive/folders/1SIr_wKT3MkZLtZ0jacOOZ_Y5xnl9-OPw?usp=sharing):
 
-## Training and inference
+## Training and inference codes
   *** To be updated soon ***
   
 ### Citation

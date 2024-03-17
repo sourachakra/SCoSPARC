@@ -11,9 +11,9 @@ Our paper introduces a novel two-stage self-supervised approach for detecting co
 
 ## Result
 
-+ Comparison with the previous state-of-the-art methods with different training sets:
++ Comparison with the existing state-of-the-art methods on the three test sets (CoCA, Cosal2015 and CoSOD3K datasets):
 
-![image-20220601123106208](README.assets/image-20220426224731550.png)
+![results](images/resul_prop.png)
 
 ## Download
 

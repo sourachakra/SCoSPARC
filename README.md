@@ -7,7 +7,7 @@ Our paper introduces a novel two-stage self-supervised approach for detecting co
 
 ## Framework Overview
 
-![arch](README.assets/arch.svg)
+![arch](images/proposed.png)
 
 ## Result
 

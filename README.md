@@ -25,10 +25,10 @@ Our paper introduces a novel two-stage self-supervised approach for detecting co
 ### Citation
 
 ```
-@article{zheng2022gconet+,
-  author={Chakraborty, Souradeep and Dimitris Samaras},
-  journal={ArxiV}, 
-  title={Self-supervised co-salient object detection via feature correspondence at multiple scales}, 
+@article{chakraborty2024self,
+  title={Self-supervised co-salient object detection via feature correspondence at multiple scales},
+  author={Chakraborty, Souradeep and Samaras, Dimitris},
+  journal={arXiv preprint arXiv:2403.11107},
   year={2024}
 }
 

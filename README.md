@@ -14,6 +14,7 @@ Our paper introduces a novel two-stage self-supervised approach for detecting co
 + Comparison with the existing state-of-the-art methods on the three test sets (CoCA, Cosal2015 and CoSOD3K datasets):
 
 ![results](images/resul_prop.png)
+"Train" indicates the training dataset: "1": COCO9213, "2": DUTS-Class, "3": COCOSEG, "-": no training.
 
 ## Download
 

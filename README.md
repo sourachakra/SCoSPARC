@@ -23,10 +23,13 @@ Our paper introduces a novel two-stage self-supervised approach for detecting co
 
 ## Download
 
-​	Find **predicted saliency maps** and all other stuff on my [google-drive folder for this work]():
+​**Predicted saliency maps** and **checkpoints** will be available for download shortly on my [google-drive folder]():
 
-## Training and inference codes
+## Training
   *** To be updated soon ***
+
+## Inference
+  Please run 'test_scripy.py' after setting the paths to the testing datasets.
   
 ### Citation
 

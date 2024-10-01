@@ -29,7 +29,9 @@ Our paper introduces a novel two-stage self-supervised approach for detecting co
   *** To be updated soon ***
 
 ## Inference
-  Please run 'test_scripy.py' after setting the paths to the testing datasets.
+  Please run 'test_scripy.py' after setting the paths to the testing datasets. The model_DUTS_Cls_only.pt is the checkpoint for the Stage 1 sub-network, which was trained on the DUTS Class dataset (dataset number "2") as referenced in Table 2 of the main paper. Checkpoints for models trained on other datasets will be made available soon.
+
+
   
 ### Citation
 

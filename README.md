@@ -21,6 +21,8 @@ Our paper introduces a novel two-stage self-supervised approach for detecting co
 ![results](images/resul_prop.png)
 "Train" indicates the training dataset: "1": COCO9213, "2": DUTS-Class, "3": COCOSEG, "-": no training.
 
+The top block compares different unsupervised CoSOD models. The lower block compares the performance of recent supervised CoSOD models. Our self-supervised SCoSPARC achieves state-of-the-art performance for unsupervised CoSOD (upper block) and outperforms recent supervised CoSOD methods (e.g. DCFM, CoRP, UFO) while being comparable to the SOTA (lower block).
+
 ## Download
 
 ​**Predicted saliency maps** and **checkpoints** will be available for download shortly on my [google-drive folder]():

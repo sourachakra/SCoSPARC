@@ -9,7 +9,8 @@ feature correspondences at multiple scales**](https://www.ecva.net/papers/eccv_2
 
 ## Prerequisites
 
-Python=3.8
+```
+Python=3.6.9
 pip install -r requirements.txt
 
 ## Abstract

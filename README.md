@@ -21,7 +21,8 @@ Before setting up the environment, ensure you have the following installed:
    git clone https://github.com/sourachakra/SCoSPARC.git
    cd SCoSPARC
    
-Install the required dependencies: Make sure you are using Python 3.6.9. Then, run the following command to install the necessary packages:
+2.  **Install dependencies**:
+   Install the required dependencies: Make sure you are using Python 3.6.9. Then, run the following command to install the necessary packages:
  ```
 pip install -r requirements.txt
  ```

@@ -3,8 +3,10 @@ This repository contains codes and results for the paper:
 
 > [**Self-supervised co-salient object detection via
 feature correspondences at multiple scales**](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/01402.pdf)  
-> Souradeep Chakraborty, Dimitris Samaras,
-> ECCV 2024 ([ECCV](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/01402.pdf))
+> Souradeep Chakraborty, Dimitris Samaras,  
+>  
+> *ECCV 2024 ([ECCV](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/01402.pdf))*
+
 
 ## Abstract
 

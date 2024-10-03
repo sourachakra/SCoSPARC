@@ -25,7 +25,7 @@ The top block compares different unsupervised CoSOD models. The lower block comp
 
 ## Download
 
-​**Predicted saliency maps** and **checkpoints** will be available for download shortly on my [google-drive folder]():
+​**Predicted saliency maps** will be available for download shortly on my [google-drive folder]():
 
 ## Datasets
 
@@ -33,12 +33,17 @@ The top block compares different unsupervised CoSOD models. The lower block comp
 
 The training datasets could be downloaded from: [COCO-9213](https://drive.google.com/file/d/1r6tRcSlvH8bXhaZD2VtGmHDxsXFl1v4z/view?usp=drive_link), [DUTS Class](https://drive.google.com/file/d/1SKaxMtIaLJk2CRdSbf-S0m6vMag1grmd/view?usp=drive_link).
 
+Please move all datasets to the 'datasets' directory and update the paths accordingly in both the training and testing scripts.
 
 ## Training
-  *** To be updated soon ***
+  Please run 'train.py' to train the stage 1 sub-network of our model.
 
 ## Inference
-  Please run 'test_scripy.py' after setting the paths to the testing datasets. The model_DUTS_Cls_only.pt is the checkpoint for the Stage 1 sub-network, which was trained on the DUTS Class dataset (dataset number "2") as referenced in Table 2 of the main paper. Checkpoints for models trained on other datasets will be made available soon.
+  Please run 'test.py' to generate CoSOD predictions on the test datasets. The model predictions will be saved in the "Predictions" directory.
+  
+  The model_DUTS_Cls_only.pt is the checkpoint for the Stage 1 sub-network, which was trained on the DUTS Class dataset (dataset number "2") as referenced in Table 2 of the main paper. Checkpoints for models trained on other datasets will be made available soon. You can also train and save the model checkpoints on training datasets you wish.
+
+  Please download the DINO pretrained model from my [Google drive](https://drive.google.com/file/d/1VcBGsYutglgIpgLnjrlUA99r6MA7En5c/view?usp=sharing) and place this model file in the "models" directory.
 
 ## Contact
 Please contact me here for any queries: souchakrabor@cs.stonybrook.edu

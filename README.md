@@ -25,7 +25,7 @@ The top block compares different unsupervised CoSOD models. The lower block comp
 
 ## Download
 
-​**Predicted saliency maps** will be available for download shortly on my [google-drive folder]():
+​**Predicted saliency maps** will be available for download shortly on my [google-drive folder]().
 
 ## Datasets
 
@@ -36,10 +36,10 @@ The training datasets could be downloaded from: [COCO-9213](https://drive.google
 Please move all datasets to the 'datasets' directory and update the paths accordingly in both the training and testing scripts.
 
 ## Training
-  Please run 'train.py' to train the stage 1 sub-network of our model.
+  Please run 'train.py' to train the stage 1 sub-network of our model. The model checkpoints will be saved in the "checkpoints" directory.
 
 ## Inference
-  Please run 'test.py' to generate CoSOD predictions on the test datasets. The model predictions will be saved in the "Predictions" directory.
+  Please run 'test.py' to generate CoSOD predictions on the test datasets. The model predictions will be saved in the "predictions" directory.
   
   The model_DUTS_Cls_only.pt is the checkpoint for the Stage 1 sub-network, which was trained on the DUTS Class dataset (dataset number "2") as referenced in Table 2 of the main paper. Checkpoints for models trained on other datasets will be made available soon. You can also train and save the model checkpoints on training datasets you wish.
 

@@ -46,10 +46,12 @@ The training datasets could be downloaded from: [COCO-9213](https://drive.google
 
 ```
 @article{chakraborty2024self,
-  title={Self-supervised co-salient object detection via feature correspondence at multiple scales},
+  title={Self-supervised co-salient object detection via feature correspondences at multiple scales},
   author={Chakraborty, Souradeep and Samaras, Dimitris},
   journal={arXiv preprint arXiv:2403.11107},
   year={2024}
 }
 
+## Contact
 
+Please contact me here for any queries: souchakrabor@cs.stonybrook.edu

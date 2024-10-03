@@ -31,6 +31,8 @@ The top block compares different unsupervised CoSOD models. The lower block comp
 
 ​The testing datasets - CoCA, Cosal2015, and CoSOD3k are available on my [Google drive](https://drive.google.com/drive/folders/10NfCoB4dIweSGE887cN2vZ4I2CoV7uXQ?usp=sharing). Unzip the zip files and put the dataset folders inside the "dataset" directory.
 
+The training datasets could be downloaded from: [COCO-9213](https://drive.google.com/file/d/1r6tRcSlvH8bXhaZD2VtGmHDxsXFl1v4z/view?usp=drive_link), [DUTS Class](https://drive.google.com/file/d/1SKaxMtIaLJk2CRdSbf-S0m6vMag1grmd/view?usp=drive_link), [COCO-SEG](https://drive.google.com/file/d/1LIOt8mFubvLCJAMUXfgDLRYPLr2zfi9y/view?usp=drive_link).
+
 
 ## Training
   *** To be updated soon ***

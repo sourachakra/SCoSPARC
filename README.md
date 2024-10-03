@@ -53,14 +53,14 @@ The training datasets could be downloaded from: [COCO-9213](https://drive.google
 Please move all datasets to the 'datasets' directory and update the paths accordingly in both the training and testing scripts.
 
 ## Training
-  To train the Stage 1 sub-network of our model, run train.py. The model checkpoints will be saved in the checkpoints directory. The 'lab_im_path' argument specifies the training set you want to use; 'combo' in the code refers to the combination of all directories from the COCO-9213 and DUTS_Class datasets. Alternatively, you can pass the subdirectories of either the COCO-9213 or DUTS_Class datasets separately as arguments to this parameter to train the model.
+  To train the Stage 1 sub-network of our model, run train.py. The model checkpoints will be saved in the checkpoints directory. The 'lab_im_path' argument specifies the training set you want to use; 'combo' in the code refers to the combination of all directories from the COCO-9213 and DUTS_Class datasets. Alternatively, you can pass the subdirectories of either the COCO-9213 or DUTS_Class datasets separately as arguments to this parameter to train the model. Please download the DINO pretrained model from my [Google drive](https://drive.google.com/file/d/1VcBGsYutglgIpgLnjrlUA99r6MA7En5c/view?usp=sharing) and place this model file in the "models" directory before running this training script.
 
 ## Inference
-  Please run 'test.py' to generate CoSOD predictions on the test datasets. The model predictions will be saved in the "predictions" directory.
+  Please run 'test.py' to generate CoSOD predictions on the test datasets. The model predictions will be saved in the "predictions" directory. Please download the DINO pretrained model from my [Google drive](https://drive.google.com/file/d/1VcBGsYutglgIpgLnjrlUA99r6MA7En5c/view?usp=sharing) and place this model file in the "models" directory, before running this inference script.
   
-  The model_DUTS_Cls_only.pt is the checkpoint for the Stage 1 sub-network, which was trained on the DUTS Class dataset (dataset number "2") as referenced in Table 2 of the main paper. Checkpoints for models trained on other datasets will be made available soon. You can also train and save the model checkpoints on training datasets you wish.
+  The model_DUTS_Cls_only.pt is the checkpoint for the Stage 1 sub-network, which was trained on the DUTS Class dataset (dataset number "2") as referenced in Table 2 of the main paper. Checkpoints for models trained on other datasets will be made available soon. You can also train and save the model checkpoints on training datasets you wish. 
 
-  Please download the DINO pretrained model from my [Google drive](https://drive.google.com/file/d/1VcBGsYutglgIpgLnjrlUA99r6MA7En5c/view?usp=sharing) and place this model file in the "models" directory.
+  
 
 ## Downloads
 ​**Predicted saliency maps** will be available for download shortly on my [google-drive folder]().

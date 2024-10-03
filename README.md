@@ -40,7 +40,8 @@ The training datasets could be downloaded from: [COCO-9213](https://drive.google
 ## Inference
   Please run 'test_scripy.py' after setting the paths to the testing datasets. The model_DUTS_Cls_only.pt is the checkpoint for the Stage 1 sub-network, which was trained on the DUTS Class dataset (dataset number "2") as referenced in Table 2 of the main paper. Checkpoints for models trained on other datasets will be made available soon.
 
-
+## Contact
+Please contact me here for any queries: souchakrabor@cs.stonybrook.edu
   
 ### Citation
 
@@ -52,6 +53,4 @@ The training datasets could be downloaded from: [COCO-9213](https://drive.google
   year={2024}
 }
 
-## Contact
 
-Please contact me here for any queries: souchakrabor@cs.stonybrook.edu

@@ -8,17 +8,23 @@ feature correspondences at multiple scales**](https://www.ecva.net/papers/eccv_2
 > *ECCV 2024 ([ECCV](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/01402.pdf))*
 
 ## Prerequisites
-Setting up the Environment:
 
-**Clone the repository**:
+Before setting up the environment, ensure you have the following installed:
+
+- Python 3.6.9
+- `pip` (Python package manager)
+
+### Setting up the Environment
+
+1. **Clone the repository**:
    ```bash
    git clone https://github.com/sourachakra/SCoSPARC.git
    cd SCoSPARC
-
-```
-Python=3.6.9
+   
+Install the required dependencies: Make sure you are using Python 3.6.9. Then, run the following command to install the necessary packages:
+ ```
 pip install -r requirements.txt
-```
+ ```
 
 ## Abstract
 

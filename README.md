@@ -63,7 +63,7 @@ Please move all datasets to the 'datasets' directory and update the paths accord
   
 
 ## Downloads
-​**Predicted saliency maps** will be available for download shortly on my [google-drive folder]().
+​**Predicted maps** will be available for download shortly on my [google-drive folder]().
 
 ## Contact
 Please contact me here for any queries: souchakrabor@cs.stonybrook.edu

@@ -1,4 +1,4 @@
-# SCoSPARC
+# Self-supervised co-salient object detection via feature correspondences at multiple scales
 This repository contains codes and results for the paper:
 
 > [**Self-supervised co-salient object detection via

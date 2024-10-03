@@ -23,9 +23,9 @@ Before setting up the environment, ensure you have the following installed:
    
 2.  **Install dependencies**:
    Install the required dependencies: Make sure you are using Python 3.6.9. Then, run the following command to install the necessary packages:
- ```
-pip install -r requirements.txt
- ```
+    ```
+    pip install -r requirements.txt
+    ```
 
 ## Abstract
 

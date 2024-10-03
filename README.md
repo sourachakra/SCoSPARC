@@ -7,6 +7,10 @@ feature correspondences at multiple scales**](https://www.ecva.net/papers/eccv_2
 >  
 > *ECCV 2024 ([ECCV](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/01402.pdf))*
 
+## Prerequisites
+
+Python=3.8
+pip install -r requirements.txt
 
 ## Abstract
 
@@ -25,10 +29,6 @@ Our paper introduces a novel two-stage self-supervised approach for detecting co
 
 The top block compares different unsupervised CoSOD models. The lower block compares the performance of recent supervised CoSOD models. Our self-supervised SCoSPARC achieves state-of-the-art performance for unsupervised CoSOD (upper block) and outperforms recent supervised CoSOD methods (e.g. DCFM, CoRP, UFO) while being comparable to the SOTA (lower block).
 
-## Download
-
-​**Predicted saliency maps** will be available for download shortly on my [google-drive folder]().
-
 ## Datasets
 
 ​The testing datasets - CoCA, Cosal2015, and CoSOD3k are available on my [Google drive](https://drive.google.com/drive/folders/10NfCoB4dIweSGE887cN2vZ4I2CoV7uXQ?usp=sharing). Unzip the zip files and put the dataset folders inside the "dataset" directory.
@@ -46,6 +46,9 @@ Please move all datasets to the 'datasets' directory and update the paths accord
   The model_DUTS_Cls_only.pt is the checkpoint for the Stage 1 sub-network, which was trained on the DUTS Class dataset (dataset number "2") as referenced in Table 2 of the main paper. Checkpoints for models trained on other datasets will be made available soon. You can also train and save the model checkpoints on training datasets you wish.
 
   Please download the DINO pretrained model from my [Google drive](https://drive.google.com/file/d/1VcBGsYutglgIpgLnjrlUA99r6MA7En5c/view?usp=sharing) and place this model file in the "models" directory.
+
+## Downloads
+​**Predicted saliency maps** will be available for download shortly on my [google-drive folder]().
 
 ## Contact
 Please contact me here for any queries: souchakrabor@cs.stonybrook.edu

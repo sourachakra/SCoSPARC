@@ -53,7 +53,7 @@ The training datasets could be downloaded from: [COCO-9213](https://drive.google
 Please move all datasets to the 'datasets' directory and update the paths accordingly in both the training and testing scripts.
 
 ## Training
-  Please run 'train.py' to train the stage 1 sub-network of our model. The model checkpoints will be saved in the "checkpoints" directory.
+  To train the Stage 1 sub-network of our model, run train.py. The model checkpoints will be saved in the checkpoints directory. The 'lab_im_path' argument specifies the training set you want to use. The value 'combo' in the code refers to the combination of all directories from the COCO-9213 and DUTS_Class datasets. Alternatively, you can pass the subdirectories of either the COCO-9213 or DUTS_Class datasets separately as arguments to this parameter to train the model.
 
 ## Inference
   Please run 'test.py' to generate CoSOD predictions on the test datasets. The model predictions will be saved in the "predictions" directory.

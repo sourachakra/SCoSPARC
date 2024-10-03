@@ -8,6 +8,12 @@ feature correspondences at multiple scales**](https://www.ecva.net/papers/eccv_2
 > *ECCV 2024 ([ECCV](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/01402.pdf))*
 
 ## Prerequisites
+Setting up the Environment:
+
+**Clone the repository**:
+   ```bash
+   git clone https://github.com/sourachakra/SCoSPARC.git
+   cd SCoSPARC
 
 ```
 Python=3.6.9

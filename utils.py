@@ -1369,19 +1369,19 @@ def apply_crf(preds_fin,paths,mode,dataset,imp_type):
             img = cv2.imread('/home/schakraborty/cvpr_2023/fresh_try_unsup_cosal/datasets/COCO9213/img_bilinear_224/'+paths[i][0])
         else:
             if dataset == 'CoCA':
-                img = cv2.imread('/home/schakraborty/cvpr_2023/fresh_try_unsup_cosal/datasets/CoCA/image/'+paths[i][0][:-4]+'.jpg')
+                img = cv2.imread('./datasets/CoCA/image/'+paths[i][0][:-4]+'.jpg')
             elif dataset == 'Cosal2015':
-                img = cv2.imread('/home/schakraborty/cvpr_2023/fresh_try_unsup_cosal/datasets/Cosal2015/image/'+paths[i][0][:-4]+'.jpg')
+                img = cv2.imread('./datasets/Cosal2015/image/'+paths[i][0][:-4]+'.jpg')
             elif dataset == 'CoSOD3k':
-                img = cv2.imread('/home/schakraborty/cvpr_2023/fresh_try_unsup_cosal/datasets/CoSOD3k/image/'+paths[i][0][:-4]+'.jpg')
+                img = cv2.imread('./datasets/CoSOD3k/image/'+paths[i][0][:-4]+'.jpg')
             elif dataset == 'coco9213':
-                img = cv2.imread('/home/schakraborty/cvpr_2023/fresh_try_unsup_cosal/datasets/COCO9213/img_bilinear_224/'+paths[i][0][:-4]+'.png') 
+                img = cv2.imread('./datasets/COCO9213/img_bilinear_224/'+paths[i][0][:-4]+'.png') 
             elif dataset == 'MSRC':
                 #print('in MSRC')
-                img = cv2.imread('/home/schakraborty/cvpr_2023/fresh_try_unsup_cosal/datasets/MSRC/image/'+paths[i][0][:-4]+'.bmp')
+                img = cv2.imread('./datasets/MSRC/image/'+paths[i][0][:-4]+'.bmp')
             elif dataset == 'iCoseg':
                 #print('in MSRC')
-                img = cv2.imread('/home/schakraborty/cvpr_2023/fresh_try_unsup_cosal/datasets/iCoseg/image/'+paths[i][0][:-4]+'.jpg')
+                img = cv2.imread('./datasets/iCoseg/image/'+paths[i][0][:-4]+'.jpg')
             
             
                 

@@ -85,7 +85,7 @@ class SCoSPARC(nn.Module):
   
     def forward(self,x,paths,mode,idx,epoch,cut_off_epoch,dataset):
         
-        box_sim = 0.9
+        box_sim = 0.77
         th0 = 0.505
         alpha_c = 1.0
         bm_bar = 0.48

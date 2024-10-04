@@ -148,7 +148,7 @@ if __name__ == '__main__':
                         type=int,
                         help='input size')
     parser.add_argument('--model_folder', default='checkpoints', type=str, help='model folder')
-    parser.add_argument('--checkpoint_name', default='model_DUT-Cls_only.pt', type=str, help='Checkpoint name')
+    parser.add_argument('--checkpoint_name', default='model_combined.pt', type=str, help='Checkpoint name')
 
     args = parser.parse_args()
 

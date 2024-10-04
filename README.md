@@ -58,7 +58,7 @@ Please move all datasets to the 'datasets' directory and update the paths accord
 ## Inference
   Please run 'test.py' to generate CoSOD predictions on the test datasets. The model predictions will be saved in the "predictions" directory. Please download the DINO pretrained model from my [Google drive](https://drive.google.com/file/d/1VcBGsYutglgIpgLnjrlUA99r6MA7En5c/view?usp=sharing) and place this model file in the "models" directory, before running this inference script.
   
-  The model_DUTS_Cls_only.pt is the checkpoint for the Stage 1 sub-network, which was trained on the DUTS Class dataset (dataset number "2") as referenced in Table 2 of the main paper. Checkpoints for models trained on other datasets will be made available soon. You can also train and save the model checkpoints on training datasets you wish. 
+  The model_combined.pt file is the checkpoint for the Stage 1 sub-network, trained on a combined dataset consisting of the COCO-9213 and the DUTS Class datasets (dataset "1+2") as referenced in Table 2 of the main paper. Similarly, the model_DUTS_Cls_only.pt file is the checkpoint trained on the DUTS Class dataset (dataset number "2"). You can also train and save the model checkpoints on training datasets you wish. 
 
 ## CoSOD predictions
 ​**Predicted CoSOD maps** on the three test datasets (CoCA, Cosal2015, and CoSOD3K) are available for download: [google-drive](https://drive.google.com/file/d/1xOItWdxE4dc6611mCFm0EDxO750KyQzx/view?usp=sharing).

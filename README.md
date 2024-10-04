@@ -60,7 +60,7 @@ Please move all datasets to the 'datasets' directory and update the paths accord
   
   The model_DUTS_Cls_only.pt is the checkpoint for the Stage 1 sub-network, which was trained on the DUTS Class dataset (dataset number "2") as referenced in Table 2 of the main paper. Checkpoints for models trained on other datasets will be made available soon. You can also train and save the model checkpoints on training datasets you wish. 
 
-## Downloads
+## CoSOD predictions
 ​**Predicted CoSOD maps** on the three test sets (CoCA, Cosal2015, and CoSOD3K) are available for download: [google-drive](https://drive.google.com/file/d/1xOItWdxE4dc6611mCFm0EDxO750KyQzx/view?usp=sharing).
 
 ## Contact

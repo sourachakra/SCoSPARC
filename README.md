@@ -69,11 +69,13 @@ Please contact me here for any queries: souchakrabor@cs.stonybrook.edu
 ### Citation
 
 ```
-@article{chakraborty2024self,
-  title={Self-supervised co-salient object detection via feature correspondences at multiple scales},
+@inproceedings{chakraborty2025self,
+  title={Self-supervised Co-salient Object Detection via Feature Correspondences at Multiple Scales},
   author={Chakraborty, Souradeep and Samaras, Dimitris},
-  journal={arXiv preprint arXiv:2403.11107},
-  year={2024}
+  booktitle={European Conference on Computer Vision},
+  pages={231--250},
+  year={2025},
+  organization={Springer}
 }
 
 
